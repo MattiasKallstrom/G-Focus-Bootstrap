@@ -1,3 +1,36 @@
 .row, .col-sm {
     border: 1px solid black;
+    flex-direction: column;
+    height: 500px;
+}
+
+.nav.justify-content-around {
+    background-color: rgba(179, 22, 87, 0.678);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-outline-success {
+    display: none;
 }
