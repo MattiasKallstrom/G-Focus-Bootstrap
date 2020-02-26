@@ -63,6 +63,12 @@ a:hover{
     border: none !important;
 }
 
+/*card wrapper*/
+.justify-content-around {
+    text-align: center;
+    flex-wrap: wrap;
+}
+
 /*product card*/
 .row{
     display: flex;
@@ -92,7 +98,7 @@ a:hover{
 }
 
 .row{
-    flex-wrap: nowrap !important;
+    /*flex-wrap: nowrap !important;*/
     margin-left: 0 !important;
 }
 

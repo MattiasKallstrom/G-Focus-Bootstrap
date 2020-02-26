@@ -1,22 +1,26 @@
 /*navbar*/
 .navbar-nav .mr-auto{
-    font-size: 23px;
+	font-size: 23px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: white;
+	color: white;
 }
 
 .navbar{
-    height: 135px;
-    width: 100%;
-    background-image: url('https://images.unsplash.com/photo-1550982030-7c1af41addbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+	height: 135px;
+	width: 100%;
+	background-image: url('https://images.unsplash.com/photo-1550982030-7c1af41addbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
-/*navbar*/
 
+/*game tab under header*/
+.game-nav {
+	flex-wrap: nowrap !important;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
 .nav {
 	align-items: baseline;
 }
@@ -27,59 +31,101 @@
 	padding: 0 10px;
 }
 
+.fa-stack, .fa-arrow-right, .fa-arrow-down {
+	font-size: 50px;
+}
+
+
 /*hover*/
 .nav-link:hover{
-    color: #8f00ff !important;
+	color: #8f00ff !important;
 }
 
 a:hover{
-    color: #8f00ff !important;
-    text-decoration: none !important;
+	color: #8f00ff !important;
+	text-decoration: none !important;
 }
-/*hover*/
 
+/*card wrapper*/
+.justify-content-around {
+	text-align: center;
+	flex-wrap: wrap;
+}
+.card {
+	border: none;
+}
 
 /*coach cards*/
 .cardbg {
-    background-image: url("http://starkovtattoo.spb.ru/images/200/DSC100224440.png");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color:#444;
-    width: 250px;
-    height: 300px;
-    border-radius:10px;
-    margin: 10px 0;
-    border:none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-    transition:all .3s;
+	background-image: url("http://starkovtattoo.spb.ru/images/200/DSC100224440.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color:#444;
+	width: 250px;
+	height: 300px;
+	border-radius:10px;
+	margin: 10px 0;
+	border:none;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+	transition:all .3s;
 }
 
 .row{
-    flex-wrap: nowrap !important;
-    margin-left: 0 !important;
+	/*flex-wrap: nowrap !important;*/
+	margin-left: 0 !important;
 }
 
 .profileinfo{
-    font-size: 12px;
-    font-weight: 200px;
-    margin-top: -1em;
+	font-size: 12px;
+	font-weight: 200px;
+	margin-top: -1em;
 }
-/*coach cards*/
+
+
+/*game cards*/
+.game-cardbg {
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #444;
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transform: scale(0.95);
+    transition: all .3s;
+    cursor: pointer;
+}
+.wow-card {
+	background-image: url(../images/wow-fp-card.jpg);
+}
+.kenshi-card{
+	background-image: url(../images/kenshi-fp-card.jpg);
+}
+.lol-card{
+	background-image: url(../images/lol-fp-card.jpg);
+}
+.ow-card{
+	background-image: url(../images/overwatch-fp-card.jpg);
+}
+
+
 
 /*footer*/
 .row {
-    text-align: center;
-    margin-right: 0 !important;
+	text-align: center;
+	margin-right: 0 !important;
 }
 
 
 .social {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: space-around;
-    font-size: 24px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-around;
+	font-size: 24px;
 }
 /*footer*/
