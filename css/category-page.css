@@ -1,0 +1,172 @@
+/*hover start*/
+.nav-link:hover{
+    color: #8f00ff !important;
+}
+a:hover{
+    color: #8f00ff !important;
+    text-decoration: none !important;
+}
+/*hover end*/
+/*section start*/
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+.image1 {
+    background-image: url(../images/WoWimg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 10px;
+}
+.image2 {
+    background-image: url(../images/LoLimg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 10px;
+}
+.image3 {
+    background-image: url(../images/Kenshiimg.png);
+    background-size: cover;
+    background-position: left;
+    height: 300px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 10px;
+}
+.image4 {
+    background-image: url(../images/Overwatchimg.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 300px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 10px;
+}
+.col-12 {
+    margin: 15px 0 15px 0;
+}
+h3 {
+    text-align: center;
+    margin: 15px 0 15px 0;
+    font-weight: bold;
+}
+.container-fluid {
+    width: 90%;
+}
+.bannername {
+    font-size: 18px;
+    height: 75px;
+    color: white;
+    background-color: black;
+    border-radius: 15px 0 0 15px;
+    padding-top: 15px;
+    box-shadow: 1px 1px 5px grey;
+}
+.banner1 {
+    background-image: url(../images/FPSbanner.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 15px 0 0;
+    box-shadow: 1px 1px 5px grey;
+}
+.banner2 {
+    background-image: url(../images/HnSbanner.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 1px 5px grey;
+}
+.banner3 {
+    background-image: url(../images/Roguelikebanner.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 1px 5px grey;
+}
+.banner4 {
+    background-image: url(../images/Simbanner.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 1px 5px grey;
+}
+.banner5 {
+    background-image: url(../images/Survivalbanner.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 0 15px 0;
+    box-shadow: 1px 1px 5px grey;
+}
+.container {
+    margin-bottom: 25px;
+    box-shadow: 1px 1px 5px grey;
+    border-radius: 15px;
+    padding-bottom: 50px;
+}
+.description {
+    height: 75px;
+    padding-top: 13px;
+    font-weight: bold;
+}
+.name {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.namearea {
+    border: 2px solid black;
+}
+.game {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.gamearea {
+    border: 2px solid black;
+}
+.genre {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.genrearea {
+    border: 2px solid black;
+}
+.submitbutton {
+    background-color: black !important;
+    color: rgb(143,0,255) !important;
+    border: none;
+    padding: 15px;
+    margin-top: 15px;
+}
+.submitbutton:hover {
+    background-color: rgb(143,0,255);
+    color: black;
+    border: none;
+}
+.submitbutton:active {
+    background-color: rgb(143,0,255) !important;
+    color: black !important;
+    border: none;
+}
+.submitbutton:visited {
+    background-color: rgb(143,0,255) !important;
+    color: black !important;
+    border: none;
+}
+/*section end*/
+/*footer start*/
+.row{
+    text-align: center;
+    margin-right: 0 !important;
+}
+.social {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    font-size: 24px;
+}
+/*footer end*/
