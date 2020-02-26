@@ -7,6 +7,24 @@ a:hover{
     text-decoration: none !important;
 }
 /*hover end*/
+/*navbar start*/
+.navbar-nav .mr-auto{
+    font-size: 23px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar{
+    height: 135px;
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1550982030-7c1af41addbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*navbar end*/
 /*section start*/
 h2 {
     text-align: center;
