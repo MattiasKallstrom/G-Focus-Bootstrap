@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*navbar*/
 .navbar-nav .mr-auto{
     font-size: 23px;
@@ -19,6 +20,17 @@
 
 
 
+=======
+.nav {
+	align-items: baseline;
+}
+
+.container-header {
+	text-align: center;
+	margin-top: 75px;
+	padding: 0 10px;
+}
+>>>>>>> 912d68429fca7990d4ed6a7390e9694e70993d70
 
 /*hover*/
 .nav-link:hover{
@@ -32,8 +44,37 @@ a:hover{
 /*hover*/
 
 
-/*footer*/
+/*coach cards*/
+.cardbg {
+    background-image: url("http://starkovtattoo.spb.ru/images/200/DSC100224440.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#444;
+    width: 250px;
+    height: 300px;
+    border-radius:10px;
+    margin: 10px 0;
+    border:none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition:all .3s;
+}
+
 .row{
+    flex-wrap: nowrap !important;
+    margin-left: 0 !important;
+}
+
+.profileinfo{
+    font-size: 12px;
+    font-weight: 200px;
+    margin-top: -1em;
+}
+/*coach cards*/
+
+/*footer*/
+.row {
     text-align: center;
     margin-right: 0 !important;
 }
@@ -47,25 +88,3 @@ a:hover{
     font-size: 24px;
 }
 /*footer*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
