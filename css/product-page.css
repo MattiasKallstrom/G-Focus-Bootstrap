@@ -1,4 +1,21 @@
+/*navbar*/
+.navbar-nav .mr-auto{
+    font-size: 23px;
+}
 
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar{
+    height: 135px;
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1550982030-7c1af41addbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*navbar*/
 
 /*hover*/
 .nav-link:hover{
@@ -17,7 +34,7 @@ a:hover{
     height: 150px;
 }
 
-.row1{
+.row-1{
     display: flex;
     flex-wrap: wrap;
 }
@@ -42,6 +59,21 @@ a:hover{
 }
 /*sinatraa o faker*/
 
+.card {
+    border: none !important;
+}
+
+/*product card*/
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-primary{
+    background-color: #000000 !important;
+}
+/*product card*/
+
 /*coach cards*/
 .cardbg {
     background-image: url("http://starkovtattoo.spb.ru/images/200/DSC100224440.png");
@@ -50,7 +82,7 @@ a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-color:#444;
-    width: 250px;
+    width: 280px;
     height: 300px;
     border-radius:10px;
     margin: 10px 0;
