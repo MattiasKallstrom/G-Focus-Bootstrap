@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import 'main.css';
 
 /*hover*/
@@ -44,11 +43,34 @@ a:hover{
 /*sinatraa o faker*/
 
 /*coach cards*/
+.cardbg {
+    background-image: url("http://starkovtattoo.spb.ru/images/200/DSC100224440.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#444;
+    width: 250px;
+    height: 300px;
+    border-radius:10px;
+    margin: 10px 0;
+    border:none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition:all .3s;
+}
 
+.row{
+    flex-wrap: nowrap !important;
+}
+
+.profileinfo{
+    font-size: 12px;
+    font-weight: 200px;
+}
 /*coach cards*/
 
 /*footer*/
-.row{
+.row {
     text-align: center;
     margin-right: 0 !important;
 }
@@ -69,6 +91,5 @@ a:hover{
 
 
 
-=======
-@import 'main.css';
->>>>>>> 2a205e142fbff806f834bbeacf6373a63f362f8a
+
+
