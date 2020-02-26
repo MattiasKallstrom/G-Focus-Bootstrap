@@ -1,4 +1,4 @@
-@import 'main.css';
+
 
 /*hover*/
 .nav-link:hover{
@@ -61,11 +61,13 @@ a:hover{
 
 .row{
     flex-wrap: nowrap !important;
+    margin-left: 0 !important;
 }
 
 .profileinfo{
     font-size: 12px;
     font-weight: 200px;
+    margin-top: -1em;
 }
 /*coach cards*/
 
