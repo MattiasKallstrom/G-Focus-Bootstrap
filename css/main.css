@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*navbar*/
 .navbar-nav .mr-auto{
     font-size: 23px;
@@ -18,9 +17,6 @@
 }
 /*navbar*/
 
-
-
-=======
 .nav {
 	align-items: baseline;
 }
@@ -30,7 +26,6 @@
 	margin-top: 75px;
 	padding: 0 10px;
 }
->>>>>>> 912d68429fca7990d4ed6a7390e9694e70993d70
 
 /*hover*/
 .nav-link:hover{
