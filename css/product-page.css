@@ -1,0 +1,64 @@
+/*hover*/
+.nav-link:hover{
+    color: #8f00ff !important;
+}
+
+a:hover{
+    color: #8f00ff !important;
+    text-decoration: none !important;
+}
+/*hover*/
+
+.row1, .col {
+    border: 1px solid black;
+    flex-direction: column;
+    height: 150px;
+}
+
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    max-width: 100%;
+}
+
+.col-sm-1{
+    float: left;
+    width: 640px;
+    height: 350px;
+    background-image: url('../images/sinatraa.jpg');
+}
+
+.col-sm-2{
+    float: left;
+    width: 640px;
+    height: 350px;
+    background-image: url('../images/faker.jpg');
+}
+
+
+
+/*footer*/
+.row{
+    text-align: center;
+    margin-right: 0 !important;
+}
+
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    font-size: 24px;
+}
+/*footer*/
+
+
+
+
+
+
+
