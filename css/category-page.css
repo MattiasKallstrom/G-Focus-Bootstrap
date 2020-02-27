@@ -139,7 +139,7 @@ h3 {
     margin: 15px 0 15px 0;
     font-weight: bold;
 }
-.container-fluid {
+.containerbanners {
     width: 90%;
 }
 .bannername {
@@ -183,7 +183,7 @@ h3 {
     border-radius: 0 0 15px 0;
     box-shadow: 1px 1px 5px grey;
 }
-.container {
+.containerform {
     margin-bottom: 25px;
     box-shadow: 1px 1px 5px grey;
     border-radius: 15px;
@@ -202,6 +202,7 @@ h3 {
 }
 .namearea {
     border: 2px solid black;
+    margin-bottom: 15px;
 }
 .game {
     color: white;
@@ -211,6 +212,7 @@ h3 {
 }
 .gamearea {
     border: 2px solid black;
+    margin-bottom: 15px;
 }
 .genre {
     color: white;
@@ -220,6 +222,7 @@ h3 {
 }
 .genrearea {
     border: 2px solid black;
+    margin-bottom: 15px;
 }
 .submitbutton {
     background-color: black !important;
