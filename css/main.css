@@ -27,6 +27,12 @@
 	align-items: baseline;
 }
 
+.full-size-gamebar-logo {
+	width: 100%;
+	max-width: 140px;
+	height: auto;
+}
+
 .container-header {
 	text-align: center;
 	margin-top: 75px;
