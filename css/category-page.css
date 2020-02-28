@@ -7,6 +7,8 @@ a:hover{
     text-decoration: none !important;
 }
 /*hover end*/
+
+
 /*navbar start*/
 .navbar-nav .mr-auto{
     font-size: 23px;
@@ -16,8 +18,22 @@ a:hover{
     color: white;
 }
 
+.navbar-collapse.show {
+    background-color: #000000;
+    text-align: center;
+    transition: all .3s;
+    transition-duration: 0.5s;
+}
+
+.navbar-toggler {
+    background-color: #FFFFFF !important;
+}
+.navbar-toggler-icon {
+    background: #8f00ff;
+    border-radius: 3px;
+}
+
 .navbar{
-    height: 135px;
     width: 100%;
     background-image: url('https://images.unsplash.com/photo-1550982030-7c1af41addbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
     background-repeat: no-repeat;
@@ -31,7 +47,6 @@ a:hover{
 }
 
 .dropdown{
-	float:right;
 	padding-right: 30px;
 }
 .btn{
