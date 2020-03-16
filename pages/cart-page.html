@@ -4,159 +4,323 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!------ Include the above in your HEAD tag ---------->
-    
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-    <!------ Include the above in your HEAD tag ---------->
-    
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Cart Page Bootstrap</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
     
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Category</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Product</a>
-          </li>
-        </ul>
-        <div class="logisign" style="font-size: 24px;">
-          <a class="text-muted" href="#" title="user"><i class="fa fa-user"></i></a>
-          <a class="text-muted" href="#" title="cart"><i class="fa fa-shopping-cart"></i></a>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/cart-page.css">
+    <title>G-Focus Product Page</title>
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="../index.html"><img src="../images/G-focuslogo2.png" width="300px" height="auto"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto" style="font-size: 23px;">
+            <li class="nav-item active">
+              <a class="nav-link" href="../index.html" style="color: #ffffff;">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="category-page.html" style="color: #ffffff;">Category</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product-page.html" style="color: #ffffff;">Product</a>
+            </li>
+          </ul>
+          
+            
+            <div class="dropdown">
+              <a class="text-white" href="#" title="user"><i class="fa fa-user"style="font-size: 30px;"></i></a>
+				    <button type="button" class="btn btn-info" data-toggle="dropdown">
+				     <i class="fa fa-shopping-cart"style="font-size: 30px;"></i> <aria-hidden="true"></i> <span class="badge badge-pill badge-danger">3</span>
+				    </button>
+				    <div class="dropdown-menu">
+				    	<div class="row total-header-section">
+			      			<div class="col-lg-6 col-sm-6 col-6">
+			      				<i class="fa fa-shopping-cart" aria-hidden="true"></i> <span class="badge badge-pill badge-danger">3</span>
+			      			</div>
+			      			<div class="col-lg-6 col-sm-6 col-6 total-section text-right">
+			      				<p>Total: <span class="text-info">$1M</span></p>
+			      			</div>
+				    	</div>
+				    	<div class="row cart-detail">
+		    				<div class="col-lg-4 col-sm-4 col-4 cart-detail-img">
+		    					<img src="../images/kenshi-mobile-logo.png" width="80px">
+		    				</div>
+		    				<div class="col-lg-8 col-sm-8 col-8 cart-detail-product">
+		    					<p>Kenshi coaching</p>
+		    					<span class="price text-info"> $14.99</span> <span class="count"> Quantity:01</span>
+		    				</div>
+              </div>
+              <div class="row cart-detail">
+		    				<div class="col-lg-4 col-sm-4 col-4 cart-detail-img">
+		    					<img src="../images/kenshi-mobile-logo.png" width="80px">
+		    				</div>
+		    				<div class="col-lg-8 col-sm-8 col-8 cart-detail-product">
+		    					<p>Kenshi coaching</p>
+		    					<span class="price text-info"> $14.99</span> <span class="count"> Quantity:01</span>
+		    				</div>
+				    	</div>
+				    	<div class="row cart-detail">
+		    				<div class="col-lg-4 col-sm-4 col-4 cart-detail-img">
+		    					<img src="../images/kenshi-mobile-logo.png" width="80px">
+		    				</div>
+		    				<div class="col-lg-8 col-sm-8 col-8 cart-detail-product">
+		    					<p>Kenshi coaching</p>
+		    					<span class="price text-info"> $14.99</span> <span class="count"> Quantity:01</span>
+		    				</div>
+				    	</div>
+				    	<div class="row cart-detail">
+		    				<div class="col-lg-4 col-sm-4 col-4 cart-detail-img">
+		    					<img src="../images/kenshi-mobile-logo.png" width="80px">
+		    				</div>
+		    				<div class="col-lg-8 col-sm-8 col-8 cart-detail-product">
+		    					<p>Kenshi coaching</p>
+		    					<span class="price text-info"> $14.99</span> <span class="count"> Quantity:01</span>
+		    				</div>
+				    	</div>
+				    	<div class="row">
+				    		<div class="col-lg-12 col-sm-12 col-12 text-center checkout">
+				    			<a href="cart-page.html" class="btn btn-primary btn-block" >Checkout
+                    
+                  </button></a>
+				    		</div>
+				    	</div>
+				    </div>
+				</div>
+          </div>
+        </div>
+      </nav>
+      <!--navbar-->
+      <div class="container">
+        <table id="cart" class="table table-hover table-condensed">
+                  <thead>
+                  <tr>
+                    <th style="width:50%">Product</th>
+                    <th style="width:10%">Price</th>
+                    <th style="width:8%">Quantity</th>
+
+                    <th style="width:10%"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td data-th="Product">
+                      <div class="row">
+                        <div class="col-sm-2 hidden-xs"><img src="../images/lol-mobile-logo.png" width="80px"alt="LoL-logo" class="img-responsive"/></div>
+                        <div class="col-sm-10">
+                          
+                          <h4 class="nomargin">League of Legends coaching</h4>
+                          <p>We will coach you to improve league mechanics like csing, lane freeze/push/swap and rotations.....</p>
+                        </div>
+                      </div>
+                    </td>
+                    <td data-th="Price">$24.99</td>
+                    <td data-th="Quantity">
+                      <input type="number" class="form-control text-center" value="1">
+                    </td>
+                    <td class="actions" data-th="">
+                      
+                      <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>								
+                    </td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr>
+                    <td data-th="Product">
+                      <div class="row">
+                        <div class="col-sm-2 hidden-xs"><img src="../images/kenshi-mobile-logo.png" width="80px"alt="Kenshi-logo" class="img-responsive"/></div>
+                        <div class="col-sm-10">
+                          <h4 class="nomargin">Kenshi coaching</h4>
+                          <p>We provide Kenshi lessons for all types speedruners and more! types of survival stuff.</p>
+                        </div>
+                      </div>
+                    </td>
+                    <td data-th="Price">$14.99</td>
+                    <td data-th="Quantity">
+                      <input type="number" class="form-control text-center" value="1">
+                    </td>
+                    <td class="actions" data-th="">
+                      
+                      <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>								
+                    </td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr>
+                    <td data-th="Product">
+                      <div class="row">
+                        <div class="col-sm-2 hidden-xs"><img src="../images/overwatch-mobile-logo.png" width="80px"alt="Overwatch-logo" class="img-responsive"/></div>
+                        <div class="col-sm-10">
+                          <h4 class="nomargin">Overwatch coaching</h4>
+                          <p>We provide overwatch lessons to improve roles as Dps, Tank and Support.</p>
+                        </div>
+                      </div>
+                    </td>
+                    <td data-th="Price">$19.99</td>
+                    <td data-th="Quantity">
+                      <input type="number" class="form-control text-center" value="1">
+                    </td>
+                    <td class="actions" data-th="">
+                      
+                      <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>								
+                    </td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr>
+                    <td data-th="Product">
+                      <div class="row">
+                        <div class="col-sm-2 hidden-xs"><img src="../images/wow-mobile-logo.png" width="80px"alt="WoW-logo" class="img-responsive"/></div>
+                        <div class="col-sm-10">
+                          <h4 class="nomargin">World of Warcraft coaching</h4>
+                          <p>We offer coaching for specific roles such tank, healer and dps Mythic+, Raids........</p>
+                        </div>
+                      </div>
+                    </td>
+                    <td data-th="Price">$14.99</td>
+                    <td data-th="Quantity">
+                      <input type="number" class="form-control text-center" value="1">
+                    </td>
+                    <td class="actions" data-th="">
+                      
+                      <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>								
+                    </td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                   <tr>
+                    <td><a href="#" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue Shopping</a></td>
+                    <td colspan="2" class="hidden-xs"></td>
+                    <td class="hidden-xs text-center"><strong>Total $74,96</strong></td>
+                    <td><a href="https://www.paypal.com/webapps/shoppingcart?mfid=1546373779156_cb91e3a2b2dc7&flowlogging_id=cb91e3a2b2dc7#/checkout/shoppingCart" class="btn btn-success btn-block">Checkout <i class="fa fa-angle-right"></i></a></td>
+                  </tr>
+                </tfoot>
+              </table>
+      </div>
+<!--register form-->
+      
+<div class="container2">
+  <legend>  Register for free.</legend>
+        <!-- Text input-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="fname">First Name</label>  
+        <div class="col-md-4">
+        <input id="fname" name="fname" type="text" placeholder="John" class="form-control input-md" required="">
+          
         </div>
       </div>
-    </nav>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <div class="container">
-	    <table id="cart" class="table table-hover table-condensed">
-    				<thead>
-						<tr>
-							<th style="width:50%">Product</th>
-							<th style="width:10%">Price</th>
-							<th style="width:8%">Quantity</th>
-							<th style="width:22%" class="text-center">Subtotal</th>
-							<th style="width:10%"></th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td data-th="Product">
-								<div class="row">
-									<div class="col-sm-2 hidden-xs"><img src="http://placehold.it/100x100" alt="..." class="img-responsive"/></div>
-									<div class="col-sm-10">
-										<h4 class="nomargin">Product 1</h4>
-										<p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet.</p>
-                  </div>
-                  <div class="col-sm-10">
-										<h4 class="nomargin">Product 1</h4>
-										<p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet.</p>
-									</div>
-								</div>
-							</td>
-							<td data-th="Price">$150.00</td>
-							<td data-th="Quantity">
-								<input type="number" class="form-control text-center" value="1">
-							</td>
-							<td data-th="Subtotal" class="text-center">150.00</td>
-							<td class="actions" data-th="">
-								<button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
-								<button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>								
-							</td>
-						</tr>
-					</tbody>
-					<tfoot>
-						<tr class="visible-xs">
-							<td class="text-center"><strong>Total 1.99</strong></td>
-						</tr>
-						<tr>
-							<td><a href="#" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue Shopping</a></td>
-							<td colspan="2" class="hidden-xs"></td>
-							<td class="hidden-xs text-center"><strong>Total $150.00</strong></td>
-							<td><a href="https://www.paypal.com/webapps/hermes?token=5EY097812P7754247&useraction=commit&mfid=1546377013907_cf1dec6830d7" class="btn btn-success btn-block">Checkout <i class="fa fa-angle-right"></i></a></td>
-						</tr>
-					</tfoot>
-				</table>
-    </div>
-
-    <div class="row d-flex flex-row bg-dark">
-      <div class="col-6 col-md">
-          <h5 class="text-white">Games</h5>
-          <ul class="list-unstyled text-small">
-              <li>
-                  <a class="text-muted" href="#">World of warcraft</a>
-              </li>
-              <li>
-                  <a class="text-muted" href="#">Kenshi</a>
-              </li>
-              <li>
-                  <a class="text-muted" href="#">League of Legends</a>
-              </li>
-              <li>
-                  <a class="text-muted" href="#">Overwatch</a>
-              </li>
-          </ul>
+      
+      <!-- Text input-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="email">Email</label>  
+        <div class="col-md-4">
+        <input id="email" name="email" type="text" placeholder="johndoe@example.com" class="form-control input-md" required="">
+          
+        </div>
       </div>
-      <div class="col-6 col-md">
-          <h5 class="text-white">About</h5>
-          <ul class="list-unstyled text-small">
-              <li>
-                  <a class="text-muted" href="#">Our Goals</a>
-              </li>
-              <li>
-                  <a class="text-muted" href="#">Our History</a>
-              </li>
-              <li>
-                  <a class="text-muted" href="#">Coaches</a>
-              </li>
-              <li>
-                  <a class="text-muted" href="#">Coach & Writers</a>
-              </li>
-          </ul>
+      
+      <!-- Password input-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="password">Password</label>
+        <div class="col-md-4">
+          <input id="password" name="password" type="password" placeholder="" class="form-control input-md" required="">
+          
+        </div>
       </div>
-      <div class="col-6 col-md">
-          <h5 class="text-white">Get Better Today</h5>
-          <div class="social">
-              <a class="text-muted" href="#"><i class="fa fa-facebook"></i></a>
-              <a class="text-muted" href="#"><i class="fa fa-instagram"></i></a>
-              <a class="text-muted" href="#"><i class="fa fa-twitter"></i></a>
+      
+      <!-- Button  -->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="save"></label>
+        <div class="col-md-8">
+          <button id="save" name="save" class="btn btn-success">Register</button>
+          <div class="signin">
+            <p>Already have an account? <a href="#">Sign in</a>.</p>
           </div>
+          
+        </div>
+      </div>
+      
+      </fieldset>
+      </form>
+</div>
+      <!--register form-->
+
+
+
+    <!--footer-->
+    <div class="row d-flex flex-row bg-dark" style="flex-wrap: wrap;">
+      <div class="col-6 col-md">
+        <h5 class="text-white">Games</h5>
+        <ul class="list-unstyled text-small">
+          <li>
+            <a class="text-muted" href="#">World of warcraft</a>
+          </li>
+          <li>
+            <a class="text-muted" href="#">Kenshi</a>
+          </li>
+          <li>
+            <a class="text-muted" href="#">League of Legends</a>
+          </li>
+          <li>
+            <a class="text-muted" href="#">Overwatch</a>
+          </li>
+        </ul>
       </div>
       <div class="col-6 col-md">
-          <h5 class="text-white">Contact Us</h5>
-          <ul class="list-unstyled text-small">
-              <li>
-                  <p class="text-muted">Åsogatan 17</p>
-              </li>
-              <li>
-                  <p class="text-muted">GFocus@gmail.com</p>
-              </li>
-              <li>
-                  <p class="text-muted">(+46) 73-013-2390</p>
-              </li>
-          </ul>
+        <h5 class="text-white">About</h5>
+        <ul class="list-unstyled text-small">
+          <li>
+            <a class="text-muted" href="#">Our Goals</a>
+          </li>
+          <li>
+            <a class="text-muted" href="#">Our History</a>
+          </li>
+          <li>
+            <a class="text-muted" href="#">Coaches</a>
+          </li>
+          <li>
+            <a class="text-muted" href="#">Coach & Writers</a>
+          </li>
+        </ul>
       </div>
-  </div>
+      <div class="col-6 col-md">
+        <h5 class="text-white">Get Better Today</h5>
+        <div class="social">
+          <a class="text-muted" href="#"><i class="fa fa-facebook"></i></a>
+          <a class="text-muted" href="#"><i class="fa fa-instagram"></i></a>
+          <a class="text-muted" href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="col-6 col-md">
+        <h5 class="text-white">Contact Us</h5>
+        <ul class="list-unstyled text-small">
+          <li>
+            <p class="text-muted">Åsogatan 17</p>
+          </li>
+          <li>
+            <p class="text-muted">GFocus@gmail.com</p>
+          </li>
+          <li>
+            <p class="text-muted">(+46) 73-013-2390</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--footer-->
+  
+  
+  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
-</html>
+  </body>
+  </html>

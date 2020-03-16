@@ -1,26 +1,119 @@
 
 /*navbar*/
 .navbar-nav .mr-auto{
-    font-size: 23px;
+	font-size: 23px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: white;
+	color: white;
+}
+
+.navbar-collapse.show {
+	background-color: #000000;
+	text-align: center;
+	transition: all .3s;
+    transition-duration: 0.5s;
+}
+
+.navbar-toggler {
+	background-color: #FFFFFF !important;
+}
+.navbar-toggler-icon {
+	background: #8f00ff;
+	border-radius: 3px;
 }
 
 .navbar{
-    height: 135px;
-    width: 100%;
-    background-image: url('https://images.unsplash.com/photo-1550982030-7c1af41addbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+	width: 100%;
+	background-image: url('https://images.unsplash.com/photo-1550982030-7c1af41addbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
-/*navbar*/
 
+/*Navbar dropdown */
+.badge-danger {
+    background-color: #8f00ff;
+}
+
+.dropdown{
+	padding-right: 30px;
+}
+.btn{
+	border:0px;
+	margin:10px 0px;
+	box-shadow:none !important; 
+}
+.dropdown .dropdown-menu{
+	padding:20px;
+	top:60px !important;
+	width:350px !important;
+	left:-250px !important;
+	box-shadow:0px 5px 30px black;
+}
+.total-header-section{
+	border-bottom:1px solid #d2d2d2;
+}
+.total-section p{
+	margin-bottom:20px;
+}
+.cart-detail{
+	padding:15px 0px;
+}
+.cart-detail-img img{
+	width:100%;
+	height:100%;
+	padding-left:15px;
+}
+
+.btn-info, .btn-info:hover {
+    background-color:transparent;
+}
+
+.cart-detail-product p{
+	margin:0px;
+	color:#000;
+	font-weight:500;
+}
+.cart-detail .price{
+	font-size:12px;
+	margin-right:10px;
+	font-weight:500;
+}
+.cart-detail .count{
+	color:#C2C2DC;
+}
+.checkout{
+	border-top:1px solid #d2d2d2;	
+	padding-top: 15px;
+}
+.checkout .btn-primary{
+	border-radius:50px;
+	height:50px;
+}
+.dropdown-menu:before{
+  content: " ";
+  position:absolute;
+  top:-20px;
+  right:50px;
+  border:10px solid transparent;
+  border-bottom-color:#fff; 
+}
+
+/*game tab under header*/
+.game-nav {
+	flex-wrap: nowrap !important;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
 
 .nav {
 	align-items: baseline;
+}
+
+.full-size-gamebar-logo {
+	width: 100%;
+	max-width: 140px;
+	height: auto;
 }
 
 .container-header {
@@ -29,60 +122,101 @@
 	padding: 0 10px;
 }
 
+.fa-stack, .fa-arrow-right, .fa-arrow-down {
+	font-size: 50px;
+}
+
 
 /*hover*/
 .nav-link:hover{
-    color: #8f00ff !important;
+	color: #8f00ff !important;
 }
 
 a:hover{
-    color: #8f00ff !important;
-    text-decoration: none !important;
+	color: #8f00ff !important;
+	text-decoration: none !important;
 }
-/*hover*/
 
+/*card wrapper*/
+.justify-content-around {
+	text-align: center;
+	flex-wrap: wrap;
+}
+.card {
+	border: none;
+}
 
 /*coach cards*/
 .cardbg {
-    background-image: url("http://starkovtattoo.spb.ru/images/200/DSC100224440.png");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color:#444;
-    width: 250px;
-    height: 300px;
-    border-radius:10px;
-    margin: 10px 0;
-    border:none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-    transition:all .3s;
+	background-image: url("http://starkovtattoo.spb.ru/images/200/DSC100224440.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color:#444;
+	width: 250px;
+	height: 300px;
+	border-radius:10px;
+	margin: 10px 0;
+	border:none;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+	transition:all .3s;
 }
 
 .row{
-    flex-wrap: nowrap !important;
-    margin-left: 0 !important;
+	/*flex-wrap: nowrap !important;*/
+	margin-left: 0 !important;
 }
 
 .profileinfo{
-    font-size: 12px;
-    font-weight: 200px;
-    margin-top: -1em;
+	font-size: 12px;
+	font-weight: 200px;
+	margin-top: -1em;
 }
-/*coach cards*/
+
+
+/*game cards*/
+.game-cardbg {
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #444;
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transform: scale(0.95);
+    transition: all .3s;
+    cursor: pointer;
+}
+.wow-card {
+	background-image: url(../images/wow-fp-card.jpg);
+}
+.kenshi-card{
+	background-image: url(../images/kenshi-fp-card.jpg);
+}
+.lol-card{
+	background-image: url(../images/lol-fp-card.jpg);
+}
+.ow-card{
+	background-image: url(../images/overwatch-fp-card.jpg);
+}
+
+
 
 /*footer*/
 .row {
-    text-align: center;
-    margin-right: 0 !important;
+	text-align: center;
+	margin-right: 0 !important;
 }
 
 
 .social {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: space-around;
-    font-size: 24px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-around;
+	font-size: 24px;
 }
 /*footer*/
